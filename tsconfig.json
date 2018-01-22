@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "outDir": "./dist/",
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [
+            "es2015",
+            "dom"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        
+    }
+}
