@@ -1,2 +1,2 @@
-webpackJsonp([0],[function(n,o,c){"use strict";c(1),console.log("hi")},function(n,o){}],[0]);
+webpackJsonp([0],[function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),t(1),t(2);var o=t(3);!function(){new o.default}()},function(n,e){},function(n,e){},function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var o=function(){function n(){this.init()}return n.prototype.init=function(){chrome.commands.onCommand.addListener(function(n){console.log("Command:",n)})},n}();e.default=o}],[0]);
 //# sourceMappingURL=bundle.js.map

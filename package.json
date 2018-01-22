@@ -5,8 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "start": "webpack-dev-server --env.dev --open",
-    "dev": "webpack-dev-server --env.dev",
-    "build": "webpack"
+    "dev": "webpack --watch",
+    "build": "rm -rf dist && webpack && cp ./src/assets/images/octodirect_icon.png ./dist/ && cp ./src/assets/manifest.json ./dist/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/JaeYeopHan/ts_common_scaffolding#readme",
   "devDependencies": {
+    "@types/chrome": "0.0.58",
     "awesome-typescript-loader": "^3.4.1",
     "css-loader": "^0.28.1",
     "extract-text-webpack-plugin": "^2.1.0",

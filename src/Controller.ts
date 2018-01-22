@@ -1,9 +1,12 @@
 class Controller {
-    private test: string;
-
     constructor() {
-        this.test = `hello`;
-        console.log(this.test);
+        this.init();
+    }
+
+    init() {
+        chrome.commands.onCommand.addListener(function(command: any) {
+            console.log('Command:', command);
+        });
     }
 }
 
