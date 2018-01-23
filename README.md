@@ -2,12 +2,11 @@
     <img src="" alt="">
 </div>
 
-# Octodirect
-[![status](https://img.shields.io/badge/status-work%20in%20progress-orange.svg)](https://github.com/JaeYeopHan/octocard/issues)
+# Chrome extension sample
 [![License: MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://opensource.org/licenses/MIT)
 
 
-This is Chrome extension app. This help to move your GitHub Repository directly.
+This is Chrome extension app sample.
 
 </br>
 
